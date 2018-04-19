@@ -1,5 +1,5 @@
 
-# Created by https://www.gitignore.io/api/csharp,intellij+all,visualstudio,visualstudiocode
+# Created by https://www.gitignore.io/api/vim,csharp,intellij+all,visualstudio,visualstudiocode
 
 ### Csharp ###
 ## Ignore Visual Studio temporary files, build results, and
@@ -359,6 +359,17 @@ modules.xml
 .idea/misc.xml
 *.ipr
 
+### Vim ###
+# swap
+.sw[a-p]
+.*.sw[a-p]
+# session
+Session.vim
+# temporary
+.netrwhist
+# auto-generated tag files
+tags
+
 ### VisualStudioCode ###
 .vscode/*
 !.vscode/settings.json
@@ -506,4 +517,4 @@ modules.xml
 # should be stored in the .pubxml.user file.
 
 
-# End of https://www.gitignore.io/api/csharp,intellij+all,visualstudio,visualstudiocode
+# End of https://www.gitignore.io/api/vim,csharp,intellij+all,visualstudio,visualstudiocode
