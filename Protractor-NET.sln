@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.27617.1
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Protractor-NETStandard20", "src\Protractor\Protractor-NETStandard20.csproj", "{16E36D95-E2F2-4026-AB76-AA3B22ECF397}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Protractor-NET", "src\Protractor\Protractor-NET.csproj", "{16E36D95-E2F2-4026-AB76-AA3B22ECF397}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{EA1FD47C-F4B9-436B-942B-BEADE0FF4B58}"
 	ProjectSection(SolutionItems) = preProject
@@ -14,7 +14,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{EA1FD4
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Samples", "Samples", "{AC5F9699-1F58-4A45-AFE4-57B732DC1941}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Protractor.Samples-NETCore20", "examples\Protractor.Samples\Protractor.Samples-NETCore20.csproj", "{23301423-F70B-4923-B058-3F9E2C5C8730}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Protractor.Samples-NET", "examples\Protractor.Samples\Protractor.Samples-NET.csproj", "{23301423-F70B-4923-B058-3F9E2C5C8730}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

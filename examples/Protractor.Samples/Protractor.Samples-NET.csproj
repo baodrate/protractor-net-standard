@@ -25,7 +25,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\..\src\Protractor\Protractor-NETStandard20.csproj" />
+    <ProjectReference Include="..\..\src\Protractor\Protractor-NET.csproj" />
   </ItemGroup>
 
 </Project>
