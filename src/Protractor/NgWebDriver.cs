@@ -5,6 +5,7 @@ using System.Collections.ObjectModel;
 
 using OpenQA.Selenium;
 using OpenQA.Selenium.Internal;
+using OpenQA.Selenium.Remote;
 
 namespace Protractor
 {
@@ -141,12 +142,12 @@ namespace Protractor
                 // TODO: test Android
                 IHasCapabilities hcDriver = this.driver as IHasCapabilities;
                 if (hcDriver != null &&
-                    hcDriver.Capabilities.HasCapability("BrowserName") &&
-                    (hcDriver.Capabilities["BrowserName"].ToString() == "internet explorer" ||
-                     hcDriver.Capabilities["BrowserName"].ToString() == "MicrosoftEdge" ||
-                     hcDriver.Capabilities["BrowserName"].ToString() == "phantomjs" ||
-                     hcDriver.Capabilities["BrowserName"].ToString() == "firefox" ||
-                     hcDriver.Capabilities["BrowserName"].ToString().ToLower() == "safari"))
+                    hcDriver.Capabilities.HasCapability(CapabilityType.BrowserName) &&
+                    (hcDriver.Capabilities[CapabilityType.BrowserName].ToString() == "internet explorer" ||
+                     hcDriver.Capabilities[CapabilityType.BrowserName].ToString() == "MicrosoftEdge" ||
+                     hcDriver.Capabilities[CapabilityType.BrowserName].ToString() == "phantomjs" ||
+                     hcDriver.Capabilities[CapabilityType.BrowserName].ToString() == "firefox" ||
+                     hcDriver.Capabilities[CapabilityType.BrowserName].ToString().ToLower() == "safari"))
                 {
                     this.ExecuteScript("window.name += '" + AngularDeferBootstrap + "';");
                     this.driver.Url = value;
