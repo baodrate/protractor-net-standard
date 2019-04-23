@@ -28,7 +28,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <PackageReference Include="Selenium.WebDriver" Version="3.6.0" />
+    <PackageReference Include="Selenium.WebDriver" Version="3.14.0" />
   </ItemGroup>
 
   <ItemGroup>
