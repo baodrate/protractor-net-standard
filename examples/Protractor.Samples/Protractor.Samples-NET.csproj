@@ -2,13 +2,20 @@
 
   <PropertyGroup>
     <TargetFramework>netcoreapp2.0</TargetFramework>
-    <RootNamespace>Protractor.Samples_NETCore20</RootNamespace>
+    <RootNamespace>Protractor.Samples</RootNamespace>
 
     <IsPackable>false</IsPackable>
+
+    <AssemblyName>Protractor.Samples</AssemblyName>
   </PropertyGroup>
 
   <ItemGroup>
+    <None Remove="MockHttpBackend\Support\angular-mocks.js" />
     <None Remove="packages.config" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Include="MockHttpBackend\Support\angular-mocks.js" />
   </ItemGroup>
 
   <ItemGroup>
