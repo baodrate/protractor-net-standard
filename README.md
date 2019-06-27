@@ -1,4 +1,4 @@
-Protractor for .NET
+Protractor for .NET [![Build Status](https://travis-ci.org/qubidt/protractor-net-standard.svg?branch=master)](https://travis-ci.org/qubidt/protractor-net-standard)
 ===================
 
 The .NET port of [Protractor](https://github.com/angular/protractor), an end to end test framework for Angular applications.
@@ -9,9 +9,9 @@ Protractor for .NET is built on top of [Selenium WebDriver](http://www.seleniumh
 
 ## Get it from NuGet!
 
-    PM> Install-Package Protractor
+    PM> Install-Package Protractor.Net.Standard
 
-Supports Microsoft .NET Framework 3.5 and higher.
+Supports Microsoft .NET Framework 4.6.1, .NET Core 2.0, Mono 5.4 and higher.
 
 ## Write tests!
 
