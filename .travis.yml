@@ -1,0 +1,9 @@
+language: csharp
+mono: none
+dist: xenial
+dotnet: 2.2
+install:
+  - dotnet restore
+script:
+  - dotnet build
+  - dotnet test examples/Protractor.Samples/Protractor.Samples-NET.csproj
