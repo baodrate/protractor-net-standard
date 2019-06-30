@@ -18,9 +18,11 @@ namespace Protractor.Samples.Basic
         {
             // Using PhantomJS
             //driver = new PhantomJSDriver();
-
+            var chromeOptions = new ChromeOptions();
+            chromeOptions.AddArgument("--headless");
+            chromeOptions.AddArgument("--disable-gpu");
             // Using Chrome
-            driver = new ChromeDriver("./");
+            driver = new ChromeDriver("./", chromeOptions);
 
             // Using Internet Explorer
             //var options = new InternetExplorerOptions() { IntroduceInstabilityByIgnoringProtectedModeSettings = true };

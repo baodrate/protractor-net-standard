@@ -5,8 +5,6 @@ The .NET port of [Protractor](https://github.com/angular/protractor), an end to 
 
 Protractor for .NET is built on top of [Selenium WebDriver](http://www.seleniumhq.org/projects/webdriver/) C# binding.
 
-[Changelog](https://github.com/bbaia/protractor-net/blob/master/HISTORY.md)
-
 ## Get it from NuGet!
 
     PM> Install-Package Protractor.Net.Standard
