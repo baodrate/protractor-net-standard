@@ -2,13 +2,13 @@
 
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
-    <PackageId>Protractor.Net.Standard</PackageId>
-    <Version>0.12.0</Version>
-    <Authors>Bao Trinh</Authors>
-    <Description>(.NET Standard 2.0 port of Protractor-Net) The .NET port of Protractor, an end to end test framework for AngularJS applications, built on top of Selenium WebDriver C# binding.</Description>
-    <RepositoryUrl>https://github.com/qubidt/protractor-net-standard</RepositoryUrl>
-    <PackageProjectUrl>https://github.com/qubidt/protractor-net-standard</PackageProjectUrl>
-    <PackageLicenseUrl>https://github.com/qubidt/protractor-net-standard/blob/master/LICENSE</PackageLicenseUrl>
+    <PackageId>Protractor.Net.Standard.Latest.Selenium</PackageId>
+    <Version>0.12.1</Version>
+    <Authors>Andressa Dantas</Authors>
+    <Description>An updated version of the dependencies of the original (.NET Standard 2.0 port of Protractor-Net) The .NET port of Protractor, an end to end test framework for AngularJS applications, built on top of Selenium WebDriver C# binding.</Description>
+    <RepositoryUrl>https://github.com/dessap/protractor-net-standard</RepositoryUrl>
+    <PackageProjectUrl>https://github.com/dessap/protractor-net-standard</PackageProjectUrl>
+    <PackageLicenseUrl>https://github.com/dessap/protractor-net-standard/blob/master/LICENSE</PackageLicenseUrl>
     <Product>Protractor</Product>
     <Company />
   </PropertyGroup>
@@ -28,7 +28,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <PackageReference Include="Selenium.WebDriver" Version="3.14.0" />
+    <PackageReference Include="Selenium.WebDriver" Version="3.141.0" />
   </ItemGroup>
 
   <ItemGroup>
